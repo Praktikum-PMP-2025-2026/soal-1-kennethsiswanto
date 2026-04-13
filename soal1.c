@@ -12,7 +12,11 @@ int main(){
         printf("KARANTINA");
         return 0;
     }
-    else if(izin == 1 && jam < 6 && jam > 20){
+    else if(izin == 1 && jam < 6){
+        printf("TOLAK");
+        return 0;
+    }
+    else if(izin == 1 && jam > 20){
         printf("TOLAK");
         return 0;
     }
@@ -20,7 +24,11 @@ int main(){
         printf("MASUK");
         return 0;
     }
-    else if(izin == 2 && radiasi <= 2 && jam>8 && jam<18){
+    else if(izin == 2 && radiasi <= 2 && jam > 8 ){
+        printf("MASUK");
+        return 0;
+    }
+    else if(izin == 2 && radiasi <= 2 && jam < 18){
         printf("MASUK");
         return 0;
     }
