@@ -8,27 +8,27 @@ int main(){
         printf("TOLAK");
         return 0;
     }
-    if(suhu >= 390){
+    else if(suhu >= 390){
         printf("KARANTINA");
         return 0;
     }
-    if(izin == 1 && jam < 6 && jam > 20){
+    else if(izin == 1 && jam < 6 && jam > 20){
         printf("TOLAK");
         return 0;
     }
-    if(izin == 1){
+    else if(izin == 1){
         printf("MASUK");
         return 0;
     }
-    if(izin == 2 && radiasi <= 2 && jam>8 && jam<18){
+    else if(izin == 2 && radiasi <= 2 && jam>8 && jam<18){
         printf("MASUK");
         return 0;
     }
-    if(izin == 2){
+    else if(izin == 2){
         printf("PEMERIKSAAN");
         return 0;
     }
-    if(izin == 3 && radiasi == 0 && suhu<380){
+    else if(izin == 3 && radiasi == 0 && suhu<380){
         printf("MASUK");
         return 0;
     }
